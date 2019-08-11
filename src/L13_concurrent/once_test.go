@@ -10,6 +10,8 @@ import (
 type Singleton struct {
 }
 
+// 只会执行一次
+
 var singletonInstance *Singleton
 var once sync.Once
 
